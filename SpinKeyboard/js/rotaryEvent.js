@@ -18,7 +18,6 @@
 		progressBarWidget = new tau.widget.CircleProgressBar(progressBar, {
 			size : "large"
 		});
-		// resultDiv.innerText = progressBarWidget.value() + "%";
 
 		// "rotarydetent" event handler
 		rotaryDetentHandler = function(e) {
@@ -65,8 +64,9 @@
 		progressBarWidget.destroy();
 		document.removeEventListener("rotarydetent", rotaryDetentHandler);
 	});
-
-	page.addEventListener("click", function() {
+	
+	var enterText = document.getElementById("enter_text");
+	enterText.addEventListener("click", function() {
 		if(currentDirection == "CW"){
 			command = command + "+" + counter;
 		}
@@ -76,7 +76,10 @@
 		counter = 0;
 		value=0;
 		alert(command);
-		findWordInStorage(command);
+		
+		showDataRecord(command);
+		
+		
 		command = "";
 		currentDirection = "";
 	});
