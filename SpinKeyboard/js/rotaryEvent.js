@@ -1,62 +1,57 @@
 /*global tau */
-(function(){
+(function() {
 	/**
-	 * page - Rotary event page element
-	 * progressBar - Circle progress element
-	 * progressBarWidget - TAU circle progress instance
-	 * rotaryDetentHandler - rotarydetent event handler
+	 * page - Rotary event page element progressBar - Circle progress element
+	 * progressBarWidget - TAU circle progress instance rotaryDetentHandler -
+	 * rotarydetent event handler
 	 */
-	var page = document.getElementById( "pageRotaryEvent" ),
-		progressBar,
-		progressBarWidget,
-		rotaryDetentHandler,
-		currentDirection, 
-		command, 
-		counter = 0;
+	var page = document.getElementById("pageRotaryEvent"), progressBar, progressBarWidget, rotaryDetentHandler, currentDirection = "", command = "", counter = 0, value = 0;
 
 	/**
-	 * pagebeforeshow event handler
-	 * Do preparatory works and adds event listeners
+	 * pagebeforeshow event handler Do preparatory works and adds event
+	 * listeners
 	 */
 	page.addEventListener("pagebeforeshow", function() {
-		var resultDiv = document.getElementById("result"),
-			direction,
-			steps;
+		var resultDiv = document.getElementById("result"), direction, steps;
 
 		progressBar = document.getElementById("circleprogress");
-		progressBarWidget = new tau.widget.CircleProgressBar(progressBar, {size: "large"});
-		//resultDiv.innerText = progressBarWidget.value() + "%";
-		
+		progressBarWidget = new tau.widget.CircleProgressBar(progressBar, {
+			size : "large"
+		});
+		// resultDiv.innerText = progressBarWidget.value() + "%";
+
 		// "rotarydetent" event handler
 		rotaryDetentHandler = function(e) {
 			// Get rotary direction
 			direction = e.detail.direction;
-			
+
 			if (direction === "CW") {
 				// Right direction
 
-				if(currentDirection === undefined)
-					currentDirection="CW";
-				if(currentDirection != "CW"){
+				if (currentDirection == "")
+					currentDirection = "CW";
+				if (currentDirection != "CW") {
 					command = command + "-" + counter
-					counter=0;
+					counter = 0;
 					currentDirection = "CW";
 				}
 				counter++;
+				value++;
 			} else if (direction === "CCW") {
 
-				if(currentDirection === undefined)
-					currentDirection="CCW";
-				if(currentDirection != "CCW"){
+				if (currentDirection == "")
+					currentDirection = "CCW";
+				if (currentDirection != "CCW") {
 					command = command + "+" + counter;
-					counter=0;
+					counter = 0;
 					currentDirection = "CCW";
 				}
 				counter++;
+				value--;
 			}
 
 			resultDiv.innerText = command;
-			progressBarWidget.value(counter);
+			progressBarWidget.value(value);
 		};
 
 		// Add rotarydetent handler to document
@@ -64,13 +59,24 @@
 	});
 
 	/**
-	 * pagehide event handler
-	 * Destroys and removes event listeners
+	 * pagehide event handler Destroys and removes event listeners
 	 */
 	page.addEventListener("pagehide", function() {
 		progressBarWidget.destroy();
 		document.removeEventListener("rotarydetent", rotaryDetentHandler);
 	});
-	
-	page.addEventListener("onclick", function() {alert(command); command="";});
+
+	page.addEventListener("click", function() {
+		if(currentDirection == "CW"){
+			command = command + "+" + counter;
+		}
+		else{
+			command = command + "-" + counter;
+		}
+		counter = 0;
+		value=0;
+		alert(command);
+		command = "";
+		currentDirection = "";
+	});
 }());

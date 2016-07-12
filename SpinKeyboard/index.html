@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-	<title>Wearable UI</title>
+	<title>Spin Keyboard</title>
 	<link rel="stylesheet"  href="lib/tau/wearable/theme/default/tau.min.css">
 	<link rel="stylesheet" media="all and (-tizen-geometric-shape: circle)" href="lib/tau/wearable/theme/default/tau.circle.min.css">
 	<link rel="stylesheet"  href="css/style.css">
@@ -10,12 +10,12 @@
 <body>
 	<div class="ui-page" id="pageRotaryEvent" data-enable-page-scroll="false">
 		<header class="ui-header">
-			<h2 class="ui-title">Rotary Event</h2>
+			<h2 class="ui-title">Spin Keyboard</h2>
 		</header>
 		<div class="ui-content">
 			<div id="result"></div>
 		</div>
-		<progress class="ui-circle-progress" id="circleprogress" max="100" value="20"></progress>
+		<progress class="ui-circle-progress" id="circleprogress" max="24" value="0" onclick="findWord()"></progress>
 		<script src="js/rotaryEvent.js"></script>
 	</div>
 </body>
