@@ -13,7 +13,8 @@
 	 */
 	page.addEventListener("pagebeforeshow", function() {
 		var resultDiv = document.getElementById("result"), direction, steps;
-
+		
+		setData();
 		progressBar = document.getElementById("circleprogress");
 		progressBarWidget = new tau.widget.CircleProgressBar(progressBar, {
 			size : "large"
@@ -76,6 +77,7 @@
 		counter = 0;
 		value=0;
 		alert(command);
+		findWordInStorage(command);
 		command = "";
 		currentDirection = "";
 	});
