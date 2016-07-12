@@ -14,7 +14,6 @@
 	page.addEventListener("pagebeforeshow", function() {
 		var resultDiv = document.getElementById("result"), direction, steps;
 		
-		setData();
 		progressBar = document.getElementById("circleprogress");
 		progressBarWidget = new tau.widget.CircleProgressBar(progressBar, {
 			size : "large"

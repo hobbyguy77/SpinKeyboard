@@ -11,10 +11,8 @@ css/images/tw_toast_popup_delete.png__DEL__n+qpQ6l/BYeO3b9DhheYS1ghBbJm2jLXKZue8
 css/images/tw_toast_popup_fail.png__DEL__q2e6rweicCl79ekxBbwAIw6e1+0Hg1HmtI8r75OFDvE=
 css/style.css__DEL__GNdVe6PkcGVEBP2p1BUxDTaJJwmFYMGnTOFLmZl73es=
 icon.png__DEL__vPjxjOppORd6hn9Bw4sh06gqtDoJzoFbV/8e9FyIdvk=
-js/app.js__DEL__9gXw7ZB7d5F11YHjNKh+DJVH1AAAEqUCpFgkKCbclQc=
 js/circle-helper.js__DEL__6BVp7/iQgsAGK/EeFOtoxoLdsy3mXuIlCgP59LAcNtw=
 js/lowBatteryCheck.js__DEL__uzXSR0N9rM94AEzkQOv7lMxT7wgUmledqKwQmWW4w2Q=
-js/rotaryEvent.js__DEL__HQRvnKinGgEpFjklbkBOgCXreJB5RRPbip55STYLgso=
 lib/tau/LICENSE.Flora__DEL__R4988xI3tkQMAcLGLOROY5Wp8YTDrI0X90uMvrydtQw=
 lib/tau/VERSION__DEL__+LTBc0txAW6nTb21lilgo5YWFfM3fd9YXJVs/Tl7HW0=
 lib/tau/wearable/js/tau.js__DEL__0UYrZx6bV2yRV6j+TUSKbZnH7XRRkuXcrfbz1I4j83w=
@@ -259,5 +257,9 @@ lib/tau/wearable/theme/default/tau.css__DEL__3OOU8BQRwDSxgd4HS8L1+fgDFBC640/eHOf
 lib/tau/wearable/theme/default/tau.min.css__DEL__wjbBefQVQCpTL7YLBs0/I8UfpRHowBWNSzzDqL25Imc=
 lib/tau/wearable/theme/default/tau.min.template__DEL__LO0fVlByyNr0CnFq2/3aymR2aFMwCjO7ii/oBwCh+HE=
 lib/tau/wearable/theme/default/tau.template__DEL__wYDkhwm83vZuSadZdEGyo/z72D2P9icIh8ukBWsBgT8=
-author-signature.xml__DEL__F9ww6PEos8z5lpehWbjnm6F+b5K/4EBsSCKS2WFxkL0=
-index.html__DEL__tv8IPSroPuMNRYL7Bx45GyXTdhgGQCaR1xQMcbUW/CQ=
+author-signature.xml__DEL__7CI8p0p4jOJCJ2jsyFEzWtxLXuvXADWDUWKJtec8khE=
+alphabet.png__DEL__NQ2XEoN9+z1cjslF82c+XVWbb8Cn3GJpx+6GzlzaewQ=
+js/app.js__DEL__FxRRa7zA0xCusLjLlbGTAoZV/hCChIT2ebUr7rO1MrQ=
+index.html__DEL__ZyympWAgOHrbZqM/aJ0KIXmQgXjbcpiABwyoPKbbsrA=
+js/rotaryEvent.js__DEL__XDrPe+rQ1t60lBqvKeCVAA18KGwGU/A2XfzHvSmnJGI=
+js/fillSQL.js__DEL__GoJbRdozZrdLmQc/0cJA4nYHkvaU/iDUrl8Q8eJGaV4=
