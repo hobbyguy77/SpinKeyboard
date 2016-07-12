@@ -2,17 +2,9 @@
 <SignedInfo>
 <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
-<Reference URI="Copy%20of%20TAUUIComponents.wgt">
-<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>TUwxgmmEYWLzwt872aQRDberFfK2KrWH/TpuU1LEETM=</DigestValue>
-</Reference>
 <Reference URI="LICENSE.Flora">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>R4988xI3tkQMAcLGLOROY5Wp8YTDrI0X90uMvrydtQw=</DigestValue>
-</Reference>
-<Reference URI="TAUUIComponents.wgt">
-<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>KCQVPi5BIKQVxgLcot8B5g5zngmaEQAibpy32lhZcOg=</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -80,7 +72,7 @@
 </Reference>
 <Reference URI="js%2FrotaryEvent.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>hdpQloaOJkqZu2HHjEQNE77D23p8BJaj3OGT+XzmBKs=</DigestValue>
+<DigestValue>8zxUFzMjs23GwKd3u0JWZr/jM4jVea4qMRhR1Ta1Sd4=</DigestValue>
 </Reference>
 <Reference URI="lib%2Ftau%2FLICENSE.Flora">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -1067,11 +1059,11 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-XrwwW1nSxhs3Xg7MvI91Qb+Wcd6tKObKyOKfUvRnjdaPdtTOkm0PclXRAjC9IQXE+DTieXstGs4c
-ErIxQTzKXBp/Eu8Fkdm36cn9Yjv6OPU+4qvsQjKfusKsjtfecaNSDG8R6lJLj9Qu3wbCCbQCCI8a
-wVqar4wLe6ll09/LHwhxbvnbMLiaPtW4GglOcbtNTOYS4bKXbYIpiXFzIfTAHQ2cFH38H3wMJ3Or
-lcKP4aIgoHWMs8HOvjmUyCvfs5JbjEbhMaFeg9ryHBg9QJtjfxS5TzK+ZRbi340zCxDDl5KnjV1+
-nXgzde51bOZxRcMJY6YDee6sBZADOvigEScq1w==
+D8OgBWf3jFpb/SfjN5x+Pqc/xdHf2vuoltgyaKNlFHDEab6E0toK5xMCvmeI26ywN4DfhWuk4/TC
+v2if3ZtmG5KgKGCIQMD6VW99hQLetQNGEvTesOMW+sK0dD9MayLt4OvBnAH2ZpID0WwbM4AzVQF/
+LL7E85y596iTv93nlUkZuRnKWEYvvZRPgPcBsrhDXPi7S7MJ3sGzuEKiPHBfheJ63gFgdOqL16Nk
+En9HMznOaMfduronYBP4A58+Dp255KlT+HWea/vjJ3OPc0VP7TKM3YVPJFTnV+3nZFzHxz0dWbZr
+pQkV/pLsdDutI4X4oVfmbddLICR4h012uG13ng==
 </SignatureValue>
 <KeyInfo>
 <X509Data>

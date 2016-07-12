@@ -1,6 +1,4 @@
-Copy of TAUUIComponents.wgt__DEL__TUwxgmmEYWLzwt872aQRDberFfK2KrWH/TpuU1LEETM=
 LICENSE.Flora__DEL__R4988xI3tkQMAcLGLOROY5Wp8YTDrI0X90uMvrydtQw=
-TAUUIComponents.wgt__DEL__KCQVPi5BIKQVxgLcot8B5g5zngmaEQAibpy32lhZcOg=
 config.xml__DEL__Rs6Yjei+pCC9mL0ae+k1nqKQV/+EDc6PoWWxdns1XNM=
 css/images/b_more_option_delete_icon.png__DEL__kU25r00kGKSgA69INIExaB5QhzpvrLK/jXtP81H0FwA=
 css/images/b_more_option_human_icon.png__DEL__ogA0tP605qPp5lFS2MUiwogGRtw1Ry6p6zQyn8flwIk=
@@ -17,7 +15,6 @@ index.html__DEL__BxahflUrm8gx/fe6O9wYbzYsYdKISUni7P5XefnR0Gw=
 js/app.js__DEL__IGouD0mR97Qg2OZeSSgmWBFeyUx7hACuwIW2GFceWOs=
 js/circle-helper.js__DEL__6BVp7/iQgsAGK/EeFOtoxoLdsy3mXuIlCgP59LAcNtw=
 js/lowBatteryCheck.js__DEL__uzXSR0N9rM94AEzkQOv7lMxT7wgUmledqKwQmWW4w2Q=
-js/rotaryEvent.js__DEL__hdpQloaOJkqZu2HHjEQNE77D23p8BJaj3OGT+XzmBKs=
 lib/tau/LICENSE.Flora__DEL__R4988xI3tkQMAcLGLOROY5Wp8YTDrI0X90uMvrydtQw=
 lib/tau/VERSION__DEL__+LTBc0txAW6nTb21lilgo5YWFfM3fd9YXJVs/Tl7HW0=
 lib/tau/wearable/js/tau.js__DEL__0UYrZx6bV2yRV6j+TUSKbZnH7XRRkuXcrfbz1I4j83w=
@@ -262,4 +259,5 @@ lib/tau/wearable/theme/default/tau.css__DEL__3OOU8BQRwDSxgd4HS8L1+fgDFBC640/eHOf
 lib/tau/wearable/theme/default/tau.min.css__DEL__wjbBefQVQCpTL7YLBs0/I8UfpRHowBWNSzzDqL25Imc=
 lib/tau/wearable/theme/default/tau.min.template__DEL__LO0fVlByyNr0CnFq2/3aymR2aFMwCjO7ii/oBwCh+HE=
 lib/tau/wearable/theme/default/tau.template__DEL__wYDkhwm83vZuSadZdEGyo/z72D2P9icIh8ukBWsBgT8=
-author-signature.xml__DEL__2cb+l3JUVgCETGSUshkxrU8HdWuANBnz52yYgL0iVas=
+author-signature.xml__DEL__A5QXwW/PQX6XFrMEXA/enyOjBIv8LbSUustyHM0HSgA=
+js/rotaryEvent.js__DEL__8zxUFzMjs23GwKd3u0JWZr/jM4jVea4qMRhR1Ta1Sd4=
